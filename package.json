@@ -1,0 +1,34 @@
+{
+  "name": "electron-openvpn3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "homepage": "https://msharifi99.dev/openvpn3-gui",
+  "author": {
+    "name": "Rebin sharifi",
+    "email": "mohammadsharifi9978@gmail.com",
+    "url": "https://msharifi99.dev"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "electron-builder"
+  },
+  "build": {
+    "appId": "com.msharifi99.openvpn3gui",
+    "linux": {
+      "target": [
+        "deb"
+      ]
+    }
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.4.10",
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "electron": "^25.5.0",
+    "electron-builder": "^24.6.3"
+  }
+}
