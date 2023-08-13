@@ -57,7 +57,7 @@ Load Configuration: Load your OpenVPN configuration file.
 Connect: Establish a VPN connection with a single click.
 Manage Profiles: Easily switch between different VPN profiles.
 
-🤝 Contributing
+## 🤝 Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss your ideas.
 
 We also appreciate feedback and suggestions!
